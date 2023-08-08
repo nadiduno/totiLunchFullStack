@@ -13,19 +13,9 @@ Aplicativo front end, de uma lanchonete, feito colaborativamente por um grupo de
   <br />
 </div>
 
-# Colabradores
+# Em produção
 
-[![Author](https://img.shields.io/badge/Dev-Efrain%20Conopoy-orange%20)](https://github.com/eefracotor)
-[![Author](https://img.shields.io/badge/Dev-Lisbeth%20Toledo-orange%20)](https://github.com/LtToledo)
-[![Author](https://img.shields.io/badge/Dev-Michael%20Allen-orange%20)](https://github.com/MichaelJuniorAllen)
-[![Author](https://img.shields.io/badge/Dev-Jose%20Gonzalez-orange%20)](https://github.com/JoseDarioGonzalezCha)
-[![Author](https://img.shields.io/badge/Dev-Miguel%20-orange%20)](https://github.com/miviu)
-[![Author](https://img.shields.io/badge/Dev-Ana%20Rangel-orange%20)](https://github.com/anarangelali)
-[![Author](https://img.shields.io/badge/Dev-Nadi%20Duno-orange%20)](https://github.com/nadiduno)
-
-# Deploy 
-
-[Aplicativo TotiLunch](https://toti-lunch.vercel.app/)
+....
 
 # Design
 
