@@ -28,6 +28,17 @@ export const GlobalStyle = createGlobalStyle`
     a {
         text-decoration: transparent;
     }
+    
+    .linkHover {
+        opacity: 1;
+        color: ${props => props.theme['white']};
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .linkHover:hover {
+        opacity: .7;
+    }
 
 
 `;

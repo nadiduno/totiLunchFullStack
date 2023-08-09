@@ -8,4 +8,5 @@ export const defaultTheme = {
     'color-6': '#D9D9D9',
     'color-7': '#8C8A88',
     'color-8': '#6D6D6D',
+    'color-9': '#94949475',
 } as const 

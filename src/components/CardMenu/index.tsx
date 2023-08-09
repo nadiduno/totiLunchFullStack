@@ -1,11 +1,26 @@
-import { CardContainer } from "./styles";
+import { CardContainer, CardImage } from "./styles";
+
+export interface FoodCardType {
+    id: number
+    title: string
+    urlFood: string
+    urlPage: string
+}
+interface FoodProps {
+    foodcard: FoodCardType
+}
 
 
-export function CardMenu() {
+export function CardMenu({ foodcard }: FoodProps) {
     return (
-        <CardContainer>
-            <a href="./menu1.html" className="cardOpc opCarnes linkHover" id="carnes">
-                <p className="titleOpc linkHover">Carnes</p>
+        <CardContainer className="linkHover">
+            <a href={foodcard.urlPage} target="_blank" rel="noreferrer">
+                {/* <TitleFood className="linkHover">
+                    {foodcard.title}
+                </TitleFood> */}
+                <CardImage>
+                    <img src={foodcard.urlFood} alt="" />
+                </CardImage>
             </a>
         </CardContainer>
     )
