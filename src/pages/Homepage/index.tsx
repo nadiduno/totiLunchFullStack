@@ -1,9 +1,11 @@
-import { Menu } from "../../components/Menu";
+import { Header } from "../../components/Header";
+import { OptionMenu } from "../../components/OptionMenu";
 
 export function Homepage() {
     return (
         <>
-            <Menu />
+            <Header />
+            <OptionMenu />
         </>
     )
 }

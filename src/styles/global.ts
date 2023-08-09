@@ -20,5 +20,14 @@ export const GlobalStyle = createGlobalStyle`
     body,input,textarea,button{
         font: 400 1rem Roboto, sans-serif;
     }
+    
+    img {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: transparent;
+    }
+
 
 `;
