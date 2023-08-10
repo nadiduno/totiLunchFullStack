@@ -1,9 +1,6 @@
-export function Menu() {
+export function CardAccount() {
     return (
         <>
-
-
-
         </>
     )
 }
