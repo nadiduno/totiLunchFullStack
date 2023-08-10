@@ -4,38 +4,38 @@ import { ContainerOpc } from "./styles"
 const foodcards: FoodCardType[] = [
     {
         id: 1,
-        title: 'Carne',
-        urlFood: 'https://github.com/nadiduno/totiLunch/blob/main/assets/carnes.jpeg?raw=true',
+        title: 'Carnes',
+        urlFood: 'https://github.com/nadiduno/totiLunchFullStack/blob/main/src/assets/carnes.svg?raw=true',
         urlPage: '#'
     },
     {
         id: 2,
         title: 'Massas',
-        urlFood: 'https://github.com/nadiduno/totiLunch/blob/main/assets/massas.jpg?raw=true',
+        urlFood: 'https://github.com/nadiduno/totiLunchFullStack/blob/main/src/assets/massas.svg?raw=true',
         urlPage: '#'
     },
     {
         id: 3,
-        title: 'bebidas',
-        urlFood: 'https://github.com/nadiduno/totiLunch/blob/main/assets/bebidas.jpg?raw=true',
+        title: 'Bebidas',
+        urlFood: 'https://github.com/nadiduno/totiLunchFullStack/blob/main/src/assets/bebidas.svg?raw=true',
         urlPage: '#'
     },
     {
         id: 4,
-        title: 'frios',
-        urlFood: 'https://github.com/nadiduno/totiLunch/blob/main/assets/frios.jpg?raw=true',
+        title: 'Frios',
+        urlFood: 'https://github.com/nadiduno/totiLunchFullStack/blob/main/src/assets/frios.svg?raw=true',
         urlPage: '#'
     },
     {
         id: 5,
-        title: 'sorvetes',
-        urlFood: 'https://github.com/nadiduno/totiLunch/blob/main/assets/sorvetes.jpg?raw=true',
+        title: 'Sorvetes',
+        urlFood: 'https://github.com/nadiduno/totiLunchFullStack/blob/main/src/assets/sorvetes.svg?raw=true',
         urlPage: '#'
     },
     {
         id: 6,
-        title: 'sobremesas',
-        urlFood: 'https://github.com/nadiduno/totiLunch/blob/main/assets/sobremesas.jpg?raw=true',
+        title: 'Sobremesas',
+        urlFood: 'https://github.com/nadiduno/totiLunchFullStack/blob/main/src/assets/sobremesas.svg?raw=true',
         urlPage: '#'
     },
 ]

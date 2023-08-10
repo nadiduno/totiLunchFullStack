@@ -11,18 +11,21 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
 `;
 
 export const CardImage = styled.div`
-    width: 110%;
-    height: 110%;
+    width: 115%;
+    height: 115%;
     object-fit: cover;
 `;
-// export const TitleFood = styled.div`   
-//     text-align: center;
-//     width: 100%;
-//     background-color: ${props => props.theme['color-9']};
-//     font-size: 1.5rem;
-//     font-weight: 500;
-//     line-height: 3rem;
-// `;
+export const TitleFood = styled.div`   
+    text-align: center;
+    width: 100%;
+    background-color: ${props => props.theme['color-9']};
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    position: absolute;
+    top: 40%;
+`;
