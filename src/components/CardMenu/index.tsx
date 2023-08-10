@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import { CardContainer, CardImage, TitleFood } from "./styles";
 
 export interface FoodCardType {
@@ -14,14 +15,16 @@ interface FoodProps {
 export function CardMenu({ foodcard }: FoodProps) {
     return (
         <CardContainer className="linkHover">
-            <a href={foodcard.urlPage} target="_blank" rel="noreferrer">
-                <TitleFood className="linkHover">
-                    {foodcard.title}
-                </TitleFood>
-                <CardImage>
-                    <img src={foodcard.urlFood} alt="" />
-                </CardImage>
-            </a>
+            <nav>
+                <NavLink to="/menu" title={foodcard.title}>
+                    <TitleFood className="linkHover">
+                        {foodcard.title}
+                    </TitleFood>
+                    <CardImage>
+                        <img src={foodcard.urlFood} alt="" />
+                    </CardImage>
+                </NavLink>
+            </nav>
         </CardContainer>
     )
 }

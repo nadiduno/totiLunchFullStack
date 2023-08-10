@@ -1,4 +1,4 @@
-import { ContainerOpc, LogoTop, MenuContainer } from './styles'
+import { LogoTop, MenuContainer } from './styles'
 import logoTotiLunch from '../../assets/logoTotiLunch.svg'
 
 
