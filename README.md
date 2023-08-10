@@ -17,6 +17,14 @@ Aplicativo front end, de uma lanchonete, feito colaborativamente por um grupo de
 
 ....
 
+# Colabradores
+
+[![Author](https://img.shields.io/badge/Back-end-Eduardo%20Lizarraga-blue%20)](https://github.com/elizarraga27)
+[![Author](https://img.shields.io/badge/Back-end-Esmirna%20Mariño-blue%20)](https://github.com/EsmirnaM/)
+[![Author](https://img.shields.io/badge/Back-end-Paula%20Gimenez-blue%20)](https://github.com/pbgv2705)
+[![Author](https://img.shields.io/badge/Front-End-Nadi%20Duno-blue%20)](https://github.com/nadiduno)
+
+
 # Design
 
 Design de  [Elvin Conopoy](https://www.linkedin.com/in/eefracotor/) - [Ver Figma](https://www.figma.com/file/EYsMdApm8TqzgQpYrA16M3/front-end-colab?type=design&node-id=0-1&mode=design&t=c72pU6knhfrfcYCd-0)
