@@ -14,8 +14,8 @@ export const CardContainer = styled.div`
 `;
 
 export const CardImage = styled.div`
-    width: 120%;
-    height: 120%;
+    width: 110%;
+    height: 110%;
     object-fit: cover;
 `;
 // export const TitleFood = styled.div`   
