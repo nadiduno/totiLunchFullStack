@@ -19,10 +19,10 @@ Aplicativo front end, de uma lanchonete, feito colaborativamente por um grupo de
 
 # Colabradores
 
-[![Author](https://img.shields.io/badge/Back-end-Eduardo%20Lizarraga-blue%20)](https://github.com/elizarraga27)
-[![Author](https://img.shields.io/badge/Back-end-Esmirna%20Mariño-blue%20)](https://github.com/EsmirnaM/)
-[![Author](https://img.shields.io/badge/Back-end-Paula%20Gimenez-blue%20)](https://github.com/pbgv2705)
-[![Author](https://img.shields.io/badge/Front-End-Nadi%20Duno-blue%20)](https://github.com/nadiduno)
+[![Author](https://img.shields.io/badge/Back_end-Eduardo%20Lizarraga-darkgreen%20)](https://github.com/elizarraga27)
+[![Author](https://img.shields.io/badge/Back_end-Esmirna%20Mariño-darkgreen%20)](https://github.com/EsmirnaM/)
+[![Author](https://img.shields.io/badge/Back_end-Paula%20Gimenez-darkgreen%20)](https://github.com/pbgv2705)
+[![Author](https://img.shields.io/badge/Front_end-Nadi%20Duno-darkgreen%20)](https://github.com/nadiduno)
 
 
 # Design
