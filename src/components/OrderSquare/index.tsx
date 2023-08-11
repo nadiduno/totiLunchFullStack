@@ -1,24 +1,22 @@
 import logoTotiLunch from '../../assets/logoTotiLunch.svg'
 import cuscuz from '../../assets/cuscuz.svg'
-import { Font2, ImgFood, Logo, TextContador, TextCount, TextOrder, Wait } from "./styles";
+import { FinishDetails, Font2, ImgFood, Logo, TextOrder } from "./styles";
 
 export function OrderSquare() {
     return (
-        <>
-
+        <FinishDetails>
             <Logo>
                 <img src={logoTotiLunch} alt="" />
             </Logo>
-            <ImgFood>
-                <img src={cuscuz} alt="" />
-            </ImgFood>
             <Font2>
                 Obrigada
             </Font2>
+            <ImgFood>
+                <img src={cuscuz} alt="" />
+            </ImgFood>
             <TextOrder>
-                Seu pedido estÃ¡ sendo preparado
+                Seu pedido está sendo preparado
             </TextOrder>
-
-        </>
+        </FinishDetails>
     )
 }

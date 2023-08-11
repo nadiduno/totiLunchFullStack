@@ -11,10 +11,6 @@ export const Wait = styled.div`
     font-size: 1.5rem;
 `;
 
-export const TextOrder = styled.p`   
-    
-`;
-
 export const TextCount = styled.strong`   
     color:${props => props.theme['color-5']};
     display: flex;
