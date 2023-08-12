@@ -26,9 +26,6 @@ export function Menu() {
             {/* <ApplicationMe key={appme.id} appme={appme} /> */}
             <CardFood />
             <CardFood />
-            <CardFood />
-            <CardFood />
-            <CardFood />
             <RequestButton urlPage="/pedido" caption="Fazer Pedido" />
         </Container>
     )

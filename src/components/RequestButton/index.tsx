@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { ButtonMain } from "./styles";
+import { ButtonMain, TextColor } from "./styles";
 
 export interface ButtonProps {
     caption: string;
@@ -10,9 +10,10 @@ export function RequestButton(props: ButtonProps) {
     return (
         <ButtonMain className="linkHover">
             <nav>
-                <p>{props.urlPage}</p>
                 <NavLink to={props.urlPage} title={props.caption}>
-                    <span>{props.caption}</span>
+                    <TextColor>
+                        {props.caption}
+                    </TextColor>
                 </NavLink>
             </nav>
         </ButtonMain>
