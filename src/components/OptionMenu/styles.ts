@@ -1,23 +1,17 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const ContainerOpc = styled.section`   
-    width:80%;
-    max-width: 370px;
-    height: 25vh;
-    margin: 1rem auto 0px;
-    margin: 0 auto;
+    margin: 0 1.5rem;
     display: grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(2,1fr);
+    @media ( (min-width: 768px) ) {
+        grid-template-columns:repeat(3,1fr);
+    }
     justify-content:center;
     align-items:center;
     justify-items:center;
-    gap: .625rem;
-    margin: 0px auto;
+    gap: .725rem;
 `;
 
-export const BoxImag = styled.div`   
-    border: 1px solid ${props => props.theme['white']};
-    width: 100%;
-    padding: 0.25rem;
-`;
+
 

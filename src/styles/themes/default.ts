@@ -9,4 +9,4 @@ export const defaultTheme = {
     'color-7': '#8C8A88',
     'color-8': '#6D6D6D',
     'color-9': '#94949475',
-} as const 
+} as const

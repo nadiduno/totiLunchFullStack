@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 
 export const MenuContainer = styled.header`   
-    width:80%;
-    max-width: 370px;
-    height: 25vh;
-    margin: 1rem auto 0px;
+    margin: .25rem 0rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
 `;
 
 export const LogoTop = styled.div`   
-    width:20%;
-    height: 20%;
+    width:70%;
+    height:70%;
+    @media ( (min-width: 768px) ) {
+        width:30%;
+        height:30%;
+        margin-bottom: .5rem;
+    }
 `;
