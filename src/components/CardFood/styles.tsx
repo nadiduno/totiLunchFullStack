@@ -1,9 +1,5 @@
 import styled from 'styled-components'
 
-export const HeaderContainer = styled.header`   
-    
-`;
-
 export const FoodBox = styled.div`   
     width: 90%;
     display: grid;
@@ -11,8 +7,8 @@ export const FoodBox = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    border: 1px solid var(--color6);
-    background: var(--color1);
+    border: 1px solid ${props => props.theme['color-6']};;
+    background: ${props => props.theme['white']};;
     margin: 1.125rem .35rem 0 .35rem;
     padding: .25rem;
 `;
@@ -35,13 +31,13 @@ export const ContainerText = styled.div`
 `;
 
 export const Text2 = styled.p`   
-    color: var(--color5);
+    color: ${props => props.theme['color-5']};;
 `;
 
 export const Text3 = styled.p`   
     font-size: .6rem;
     margin-top: 0.4rem;
-    color: var(--color8);
+    color: ${props => props.theme['color-8']};;
 `;
 
 export const InfoFood = styled.div`   
@@ -55,12 +51,12 @@ export const InfoFood = styled.div`
 export const DescFood = styled.div`   
     width: 100%;
     border-radius: 4px;
-    border: 1px solid var(--color6);
+    border: 1px solid ${props => props.theme['color-6']};;
     padding: auto .125rem;
 `;
 
 export const Valor = styled.div`   
-    color: var(--color7);
+    color: ${props => props.theme['color-7']};;
     text-align: right;
     font-size: .75rem;
     font-style: normal;
@@ -71,7 +67,7 @@ export const Valor = styled.div`
 `;
 
 export const CardValor = styled.div`   
-    color: var(--color3);
+    color: ${props => props.theme['color-3']};;
     text-align: right;
     font-size: 1rem;
     font-style: normal;
@@ -84,7 +80,7 @@ export const CardValor = styled.div`
 export const Card = styled.div`   
     width: 1.375rem;
     height: 1.188rem;
-    background: var(--color6);
+    background: ${props => props.theme['color-6']};;
     border-radius: 4px;
     margin: auto .175rem;
     display: flex;
@@ -93,7 +89,7 @@ export const Card = styled.div`
 `;
 
 export const ValorTotal = styled.div`   
-    color: var(--color5);
+    color: ${props => props.theme['color-5']};;
     text-align: right;
     font-size: 1rem;
     font-style: normal;
@@ -114,8 +110,8 @@ export const ButtoSmall = styled.div`
         width: 1.563rem;
     height: 1.563rem;
     border-radius: 5px;
-    border: 1px solid var(--color8);
-    background: #6D6D6D;
+    border: 1px solid ${props => props.theme['color-8']};;
+    background: ${props => props.theme['color-8']};;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
