@@ -9,12 +9,6 @@ import { Container } from "./styles";
 //         id: 1,
 //         title: 'Toti Lunch',
 //         about: 'Cardápio Digital',
-//         urlApp: {
-//             photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App9.png?raw=true',
-//             deploy: 'https://toti-lunch.vercel.app/',
-//             github: 'https://github.com/nadiduno/totiLunchFullStack',
-//         },
-//         publishedAt: new Date('2023-08-10 13:34:00'),
 //     },
 // ]
 
