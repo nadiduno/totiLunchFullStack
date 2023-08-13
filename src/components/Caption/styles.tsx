@@ -7,9 +7,9 @@ export const CaptionContainer = styled.div`
     align-items: center;
     background-color: ${props => props.theme['white']};
     color:${props => props.theme['black']};
-    @media ( (min-width: 768px) ) {
+    /* @media ( (min-width: 768px) ) {
         width:70%;
-    }
+    } */
 
 `;
 
@@ -27,3 +27,8 @@ export const CaptionFood = styled.p`
     font-weight: bold;
     line-height: 2rem;
 `;
+
+export const ColorIcono = styled.span`   
+    color:${props => props.theme['black']};
+`;
+

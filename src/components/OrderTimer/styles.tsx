@@ -1,9 +1,5 @@
 import styled from 'styled-components'
 
-export const HeaderContainer = styled.header`   
-    
-`;
-
 export const Wait = styled.div`   
     display: block;
     align-items: center;
@@ -16,5 +12,8 @@ export const TextCount = styled.strong`
     display: flex;
     justify-content: center;
     margin-top: .5rem;
+    @media ( (max-width: 400px) ) {
+        padding-bottom:4rem;
+    }
 `;
 

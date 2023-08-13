@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight } from "phosphor-react"
-import { Arrow, CaptionContainer, CaptionFood } from "./styles"
+import { Arrow, CaptionContainer, CaptionFood, ColorIcono } from "./styles"
 
 // export interface captionMeType {
 //     id: number
@@ -16,14 +16,18 @@ export function Caption() {
     return (
         <CaptionContainer>
             <Arrow className="linkHover">
-                <ArrowLeft size={24} />
+                <ColorIcono>
+                    <ArrowLeft size={24} />
+                </ColorIcono>
             </Arrow >
             <CaptionFood>
                 Carnes
                 {/* {foodcard.title} */}
             </CaptionFood>
             <Arrow className="linkHover">
-                <ArrowRight size={24} />
+                <ColorIcono>
+                    <ArrowRight size={24} />
+                </ColorIcono>
             </Arrow>
         </CaptionContainer >
     )
