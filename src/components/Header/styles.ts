@@ -10,9 +10,11 @@ export const MenuContainer = styled.header`
 export const LogoTop = styled.div`   
     width:70%;
     height:70%;
+    @media ( (min-width: 400px) ) {
+        max-width: 50%;
+    }
     @media ( (min-width: 768px) ) {
-        width:30%;
-        height:30%;
-        margin-bottom: .5rem;
+        max-width: 50%;
+        margin-top:1.5rem;       
     }
 `;
