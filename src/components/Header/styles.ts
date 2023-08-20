@@ -11,10 +11,10 @@ export const LogoTop = styled.div`
     width:70%;
     height:70%;
     @media ( (min-width: 400px) ) {
-        max-width: 50%;
+        max-width: 25%;
     }
     @media ( (min-width: 768px) ) {
-        max-width: 50%;
+        max-width: 30%;
         margin-top:1.5rem;       
     }
 `;

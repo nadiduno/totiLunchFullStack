@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const ContainerOpc = styled.section`   
     width:100%;
-    margin: 0 1.5rem;
-    padding: 4rem;
+    margin:0 auto;
+    padding: 0 1rem;
     display: grid;
     grid-template-columns:repeat(2,1fr);
     @media ( (min-width: 768px) ) {
@@ -12,7 +12,7 @@ export const ContainerOpc = styled.section`
     justify-content:center;
     align-items:center;
     justify-items:center;
-    gap: .725rem;
+    gap: .5rem;
 `;
 
 
