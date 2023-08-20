@@ -1,6 +1,7 @@
 import { CardMenu, FoodCardType } from "../CardMenu"
 import { ContainerOpc } from "./styles"
 
+
 const foodcards: FoodCardType[] = [
     {
         id: 1,
@@ -41,6 +42,7 @@ const foodcards: FoodCardType[] = [
 ]
 
 export function OptionMenu() {
+
     return (
         <ContainerOpc>
             {foodcards.map((foodcard) => {

@@ -1,18 +1,16 @@
 import { ArrowLeft, ArrowRight } from "phosphor-react"
 import { Arrow, CaptionContainer, CaptionFood, ColorIcono } from "./styles"
 
-// export interface captionMeType {
-//     id: number
-//     caption: string
-//     urlprevious: string
-//     urlnext: string
-// }
-// interface captionProps {
-//     captionprop: captionMeType
-// }
-//   export function ApplicationMe({ appme }: AppProps) 
+// import { createContext, useContext } from 'react'
 
-export function Caption() {
+
+
+export interface CaptionProps {
+    captionPage: string;
+}
+export function Caption({ captionPage }: CaptionProps) {
+    // const {FoodCardType} = useContext(FoodContext)
+
     return (
         <CaptionContainer>
             <Arrow className="linkHover">
@@ -21,8 +19,7 @@ export function Caption() {
                 </ColorIcono>
             </Arrow >
             <CaptionFood>
-                Carnes
-                {/* {foodcard.title} */}
+                {captionPage}
             </CaptionFood>
             <Arrow className="linkHover">
                 <ColorIcono>
