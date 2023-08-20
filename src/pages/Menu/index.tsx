@@ -42,12 +42,13 @@ import { FoodContext } from "../../components/CardMenu";
 ]*/
 
 export function Menu() {
-    const selectedFoodcard = useContext(FoodContext)
+    // const selectedFoodcard = useContext(FoodContext)
 
     return (
         <Container>
             <HeaderPageMenu />
             <Caption captionPage="Canes" />
+            <CardFood />
             <CardFood />
             <CardFood />
             <CardFood />
